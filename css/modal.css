@@ -8,12 +8,19 @@
     top: 50%;
     transform: translate(-50%, -50%);
     background: #F2F0F9;
+    opacity: 11;
 }
 
 .overlay {
-    background: transparent;
+    max-width: 100%;
+    background-color: rgba(179, 163, 183, 0.5);
     opacity: 10;
     margin: 0 auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
 }
 
 .modal {
@@ -195,8 +202,7 @@
     text-transform: uppercase;
     font-size: 16px;
     line-height: 19px;
-    max-width: 200px;
-    flex-shrink: 0;
+    width: 200px;
     height: 39px;
 }
 
@@ -221,7 +227,6 @@
 
 .add__container {
     display: flex;
-    gap: 90px;
     justify-content: space-between;
     padding: 28px 28px 25px 28px;
     max-width: 580px;
@@ -231,7 +236,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    max-width: 234px;
+    width: 250px;
     color: #6E6893;
 }
 
